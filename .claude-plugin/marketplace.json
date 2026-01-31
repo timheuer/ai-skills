@@ -1,0 +1,17 @@
+{
+    "name": "dotnet-skills",
+    "description": "Official repository from the .NET team featuring curated skills and agents for the .NET ecosystem, C#, and .NET application frameworks",
+    "owner": {
+        "name": "Microsoft",
+        "url": "https://github.com/dotnet/skills"
+    },
+    "repository": "https://github.com/dotnet/skills",
+    "plugins": [
+        {
+            "name": "dotnet-skills",
+            "source": "./",
+            "version": "1.0.0",
+            "description": "Specialized skills and agents curated by the engineers who build .NET products"
+        }
+    ]
+}

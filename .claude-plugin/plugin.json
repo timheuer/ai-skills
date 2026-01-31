@@ -1,0 +1,16 @@
+{
+    "name": "dotnet-skills",
+    "version": "1.0.0",
+    "description": "Specialized skills and agents curated by the engineers who build .NET products",
+    "author": {
+        "name": "Microsoft",
+        "url": "https://github.com/dotnet"
+    },
+    "repository": "https://github.com/dotnet/skills",
+    "skills": [
+        "./skills/dotnet/performance"
+    ],
+    "agents": [
+        "./agents/winforms-specialist.md"
+    ]
+}
