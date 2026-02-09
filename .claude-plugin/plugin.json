@@ -1,16 +1,12 @@
 {
-    "name": "dotnet-skills",
+    "name": "core-skills",
     "version": "1.0.0",
     "description": "Specialized skills and agents curated by the engineers who build .NET products",
     "author": {
-        "name": "Microsoft",
-        "url": "https://github.com/dotnet"
+        "name": "Tim Heuer",
+        "url": "https://github.com/timheuer"
     },
-    "repository": "https://github.com/dotnet/skills",
-    "skills": [
-        "./skills/dotnet/performance"
-    ],
-    "agents": [
-        "./agents/winforms-specialist.md"
-    ]
+    "repository": "https://github.com/timheuer/ai-skills",
+    "skills": "./skills/",
+    "agents": "./agents/"
 }

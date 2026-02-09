@@ -1,17 +1,18 @@
 {
-    "name": "dotnet-skills",
-    "description": "Official repository from the .NET team featuring curated skills and agents for the .NET ecosystem, C#, and .NET application frameworks",
+    "name": "core-skills",
     "owner": {
-        "name": "Microsoft",
-        "url": "https://github.com/dotnet/skills"
+        "name": "Tim Heuer"
     },
-    "repository": "https://github.com/dotnet/skills",
+    "metadata": {
+        "description": "Official repository from Tim Heuer featuring curated skills and agents for the .NET ecosystem, C#, and .NET application frameworks"
+    },
     "plugins": [
         {
-            "name": "dotnet-skills",
+            "name": "core-skills",
             "source": "./",
             "version": "1.0.0",
-            "description": "Specialized skills and agents curated by the engineers who build .NET products"
+            "description": "Specialized skills and agents curated by Tim Heuer",
+            "repository": "https://github.com/timheuer/ai-skills"
         }
     ]
 }
