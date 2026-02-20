@@ -8,7 +8,7 @@
     },
     "repository": "https://github.com/timheuer/ai-skills",
     "skills": [
-        "./skills/aspnet-skill-1",
-        "./skills/dotnet-profile"
+        "../../skills/aspnet-skill-1",
+        "../../skills/dotnet-profile"
     ]
 }
