@@ -1,12 +1,13 @@
 {
-    "name": "core-skills",
+    "name": "aspnet",
     "version": "1.0.0",
-    "description": "Specialized skills and agents curated by the engineers who build .NET products",
+    "description": "ASP.NET development tools",
     "author": {
         "name": "Tim Heuer",
         "url": "https://github.com/timheuer"
     },
     "repository": "https://github.com/timheuer/ai-skills",
-    "skills": "./skills/",
-    "agents": "./agents/"
+    "skills": [
+        "../../skills/aspnet-skill-1"
+    ]
 }

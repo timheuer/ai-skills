@@ -1,0 +1,11 @@
+{
+    "name": "winforms-dev",
+    "version": "1.0.0",
+    "description": "Winforms tools",
+    "author": {
+        "name": "Tim Heuer",
+        "url": "https://github.com/timheuer"
+    },
+    "repository": "https://github.com/timheuer/ai-skills",
+    "agents": "../../agents/winforms-specialist.md"
+}

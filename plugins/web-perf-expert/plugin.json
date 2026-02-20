@@ -1,0 +1,14 @@
+{
+    "name": "web-perf-expert",
+    "version": "1.0.0",
+    "description": "Web performance expert",
+    "author": {
+        "name": "Tim Heuer",
+        "url": "https://github.com/timheuer"
+    },
+    "repository": "https://github.com/timheuer/ai-skills",
+    "skills": [
+        "../../skills/aspnet-skill-1",
+        "../../skills/dotnet-profile"
+    ]
+}

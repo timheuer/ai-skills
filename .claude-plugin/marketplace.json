@@ -8,8 +8,22 @@
     },
     "plugins": [
         {
-            "name": "core-skills",
-            "source": "./",
+            "name": "aspnet",
+            "source": "./plugins/aspnet",
+            "version": "1.0.0",
+            "description": "Specialized skills and agents curated by Tim Heuer",
+            "repository": "https://github.com/timheuer/ai-skills"
+        },
+        {
+            "name": "web-perf-expert",
+            "source": "./plugins/web-perf-expert",
+            "version": "1.0.0",
+            "description": "Specialized skills and agents curated by Tim Heuer",
+            "repository": "https://github.com/timheuer/ai-skills"
+        },
+        {
+            "name": "winforms-dev",
+            "source": "./plugins/winforms-dev",
             "version": "1.0.0",
             "description": "Specialized skills and agents curated by Tim Heuer",
             "repository": "https://github.com/timheuer/ai-skills"
