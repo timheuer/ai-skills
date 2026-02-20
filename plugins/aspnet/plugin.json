@@ -8,6 +8,6 @@
     },
     "repository": "https://github.com/timheuer/ai-skills",
     "skills": [
-        "../../skills/aspnet-skill-1"
+        "./skills/aspnet-skill-1"
     ]
 }
