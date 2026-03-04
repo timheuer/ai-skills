@@ -10,5 +10,8 @@
     "skills": [
         "./skills/aspnet-skill-1",
         "./skills/dotnet-profile"
-    ]
+    ],
+    "hooks": "./hooks/hooks.json",
+    "mcpServers": "./.mcp.json",
+    "lspServers": "./.lsp.json"
 }

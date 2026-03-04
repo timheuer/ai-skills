@@ -1,0 +1,38 @@
+{
+    "hooks": {
+        "PostToolUse": [
+            {
+                "matcher": "Write|Edit",
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "dotnet format --include ${TOOL_INPUT_path} --verbosity quiet",
+                        "timeout": 30000
+                    }
+                ]
+            }
+        ],
+        "PreToolUse": [
+            {
+                "matcher": "run_in_terminal",
+                "hooks": [
+                    {
+                        "type": "prompt",
+                        "prompt": "If the command is 'dotnet publish' or 'dotnet deploy', ask for confirmation. Otherwise allow. Command: $ARGUMENTS"
+                    }
+                ]
+            }
+        ],
+        "SessionStart": [
+            {
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "dotnet --version",
+                        "timeout": 5000
+                    }
+                ]
+            }
+        ]
+    }
+}

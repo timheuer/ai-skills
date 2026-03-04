@@ -1,0 +1,16 @@
+{
+    "mcpServers": {
+        "nuget": {
+            "command": "npx",
+            "args": [ "-y", "@anthropic/mcp-nuget" ],
+            "env": {
+                "NUGET_PACKAGES": "${CLAUDE_PLUGIN_ROOT}/packages"
+            }
+        },
+        "dotnet-cli": {
+            "command": "npx",
+            "args": [ "-y", "@anthropic/mcp-dotnet" ],
+            "cwd": "${CLAUDE_PLUGIN_ROOT}"
+        }
+    }
+}

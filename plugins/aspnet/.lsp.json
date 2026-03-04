@@ -1,0 +1,28 @@
+{
+    "csharp": {
+        "command": "OmniSharp",
+        "args": [ "-lsp", "--hostPID", "$$" ],
+        "extensionToLanguage": {
+            ".cs": "csharp",
+            ".csx": "csharp"
+        },
+        "initializationOptions": {
+            "RoslynExtensionsOptions": {
+                "enableAnalyzersSupport": true,
+                "enableImportCompletion": true
+            }
+        },
+        "restartOnCrash": true,
+        "maxRestarts": 3
+    },
+    "razor": {
+        "command": "rzls",
+        "args": [ ],
+        "extensionToLanguage": {
+            ".razor": "razor",
+            ".cshtml": "razor"
+        },
+        "restartOnCrash": true,
+        "maxRestarts": 3
+    }
+}
